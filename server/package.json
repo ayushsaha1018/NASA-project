@@ -14,11 +14,12 @@
   "author": "",
   "license": "ISC",
   "jest": {
-     "testEnvironment": "node"
+    "testEnvironment": "node"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "csv-parse": "^5.1.0",
+    "dotenv": "^16.0.1",
     "express": "^4.17.3",
     "mongoose": "^6.3.6",
     "morgan": "^1.10.0",
