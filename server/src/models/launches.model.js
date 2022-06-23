@@ -86,7 +86,7 @@ async function findLaunch(filter) {
 }
 
 async function existsLaunchWithId(launchId) {
-  return await findlaunch({
+  return await findLaunch({
     flightNumber: launchId,
   });
 }
